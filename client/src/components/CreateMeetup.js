@@ -10,6 +10,7 @@ const auth = require('../utils/auth');
 
 
 const CreateMeetup = () => {
+    
     const [title, setTitle] = useState('');
     const [body, setBody] = useState('');
     const [username, setUsername] = useState('');
